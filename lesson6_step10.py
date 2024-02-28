@@ -11,7 +11,7 @@ try:
     input1.send_keys("Smolensk")
     input2 = browser.find_element(By.XPATH,"//input[@class='form-control second']")
     input2.send_keys("Smoll")
-    input3 = browser.find_element(By.XPATH,"//input[@class='form-control.third' and @placeholder='Input.your.email']")
+    input3 = browser.find_element(By.XPATH,"//input[@class='form-control third' and @placeholder='Input your email']")
     input3.send_keys("Eensk@mail.kz")
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
     button.click()
